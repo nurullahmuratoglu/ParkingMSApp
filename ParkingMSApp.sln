@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F3BCF80-84FE-472E-BD01-DC4682A4F46F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C28AD7B4-DC4F-46F9-8339-62DB70226F32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingMSApp.Domain", "src\Core\ParkingMSApp.Domain\ParkingMSApp.Domain.csproj", "{7B052758-365C-4469-ADCD-EFFFD2CE9BB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingMSApp.Application", "src\Core\ParkingMSApp.Application\ParkingMSApp.Application.csproj", "{B56E2D02-3B63-4153-A5F0-36035E25C282}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5A5A0D2A-FC44-4596-B0E3-D7696F2B4004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{49797E75-2881-489C-979D-A4ACD09DAE93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{5B94130A-73A7-46B6-A977-D2DE0C9439DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingMSApp", "Presentation\WebApi\ParkingMSApp\ParkingMSApp.csproj", "{2213517E-D008-4987-8904-9C035AA41FCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingMSApp.Presistence", "Infrastructure\ParkingMSApp.Presistence\ParkingMSApp.Presistence.csproj", "{F755CD3D-6D25-4807-B09C-9AAABC13144A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B052758-365C-4469-ADCD-EFFFD2CE9BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B052758-365C-4469-ADCD-EFFFD2CE9BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B052758-365C-4469-ADCD-EFFFD2CE9BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B052758-365C-4469-ADCD-EFFFD2CE9BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56E2D02-3B63-4153-A5F0-36035E25C282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56E2D02-3B63-4153-A5F0-36035E25C282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56E2D02-3B63-4153-A5F0-36035E25C282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56E2D02-3B63-4153-A5F0-36035E25C282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2213517E-D008-4987-8904-9C035AA41FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2213517E-D008-4987-8904-9C035AA41FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2213517E-D008-4987-8904-9C035AA41FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2213517E-D008-4987-8904-9C035AA41FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F755CD3D-6D25-4807-B09C-9AAABC13144A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F755CD3D-6D25-4807-B09C-9AAABC13144A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F755CD3D-6D25-4807-B09C-9AAABC13144A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F755CD3D-6D25-4807-B09C-9AAABC13144A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C28AD7B4-DC4F-46F9-8339-62DB70226F32} = {7F3BCF80-84FE-472E-BD01-DC4682A4F46F}
+		{7B052758-365C-4469-ADCD-EFFFD2CE9BB7} = {C28AD7B4-DC4F-46F9-8339-62DB70226F32}
+		{B56E2D02-3B63-4153-A5F0-36035E25C282} = {C28AD7B4-DC4F-46F9-8339-62DB70226F32}
+		{5A5A0D2A-FC44-4596-B0E3-D7696F2B4004} = {7F3BCF80-84FE-472E-BD01-DC4682A4F46F}
+		{49797E75-2881-489C-979D-A4ACD09DAE93} = {7F3BCF80-84FE-472E-BD01-DC4682A4F46F}
+		{5B94130A-73A7-46B6-A977-D2DE0C9439DD} = {49797E75-2881-489C-979D-A4ACD09DAE93}
+		{2213517E-D008-4987-8904-9C035AA41FCF} = {5B94130A-73A7-46B6-A977-D2DE0C9439DD}
+		{F755CD3D-6D25-4807-B09C-9AAABC13144A} = {5A5A0D2A-FC44-4596-B0E3-D7696F2B4004}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1B6D8AE-55AC-46F3-91B1-6D9423AC01F3}
+	EndGlobalSection
+EndGlobal
